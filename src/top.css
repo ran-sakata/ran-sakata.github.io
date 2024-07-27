@@ -1,0 +1,25 @@
+.top-wrapper {
+  padding: 0 !important;
+}
+
+.top-wrapper .title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.5rem;
+  z-index: 2;
+  & br {
+    display: none;
+    @media screen and (max-width: 768px) {
+      display: block;
+    }
+  }
+  & .greeting-1 {
+    color: #403d41;
+    padding-right: 1rem;
+  }
+  & .name-2 {
+    white-space: nowrap;
+  }
+}
