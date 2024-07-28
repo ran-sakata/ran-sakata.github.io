@@ -1,5 +1,5 @@
-@import "background.css";
-@import "top.css";
+@import "styles/background.css";
+@import "styles/top.css";
 
 html,
 body {
@@ -14,6 +14,10 @@ body {
   color: #000;
   margin: 0;
   padding: 0;
+}
+
+.color-primary {
+  color: #602d1d;
 }
 
 .swiper-slide {
